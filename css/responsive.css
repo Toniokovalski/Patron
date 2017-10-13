@@ -1,0 +1,533 @@
+@media screen and (max-width: 1020px) {
+  /* line 2, ../sass/responsive.scss */
+  .container {
+    width: 768px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  /* line 3, ../sass/responsive.scss */
+  h1 {
+    padding: 25px 0 50px;
+  }
+
+  /* line 4, ../sass/responsive.scss */
+  .header-list:after {
+    background-size: 70%;
+    top: 60px;
+    right: -290px;
+  }
+
+  /* line 5, ../sass/responsive.scss */
+  .round-wrap {
+    width: 300px;
+    margin: 0 30px 40px;
+  }
+
+  /* line 6, ../sass/responsive.scss */
+  .round-wrap:before {
+    top: -10px;
+    left: 80px;
+  }
+
+  /* line 7, ../sass/responsive.scss */
+  .form-wrap {
+    margin: 0;
+  }
+
+  /* line 8, ../sass/responsive.scss */
+  .age-1:after, .age-2:after, .round-wrap br {
+    display: none;
+  }
+
+  /* line 9, ../sass/responsive.scss */
+  .block-3 h2 {
+    padding: 20px 0 30px;
+  }
+
+  /* line 10, ../sass/responsive.scss */
+  .age-3 {
+    margin-top: 60px;
+  }
+
+  /* line 11, ../sass/responsive.scss */
+  .block-6 h2 {
+    padding-bottom: 10px;
+  }
+
+  /* line 12, ../sass/responsive.scss */
+  .another-wrap, .good-wrap {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* line 13, ../sass/responsive.scss */
+  .another-list br, .good-list br {
+    display: none;
+  }
+
+  /* line 14, ../sass/responsive.scss */
+  .another-list:after {
+    top: 35px;
+  }
+
+  /* line 15, ../sass/responsive.scss */
+  .good-list:after {
+    top: 65px;
+  }
+
+  /* line 16, ../sass/responsive.scss */
+  .block-7 p {
+    max-width: 400px;
+  }
+
+  /* line 17, ../sass/responsive.scss */
+  .text-wrap {
+    background: url("../img/doctor.png") no-repeat right bottom;
+    background-size: 65%;
+  }
+
+  /* line 18, ../sass/responsive.scss */
+  .block-8 h2 {
+    padding-bottom: 110px;
+  }
+
+  /* line 19, ../sass/responsive.scss */
+  .reviews-1, .reviews-2 {
+    width: 44%;
+    height: 380px;
+  }
+
+  /* line 20, ../sass/responsive.scss */
+  .reviews-2 {
+    margin: 0 10px;
+  }
+
+  /* line 21, ../sass/responsive.scss */
+  .reviews-3 {
+    margin-top: 100px;
+    width: 90%;
+    height: 230px;
+  }
+
+  /* line 22, ../sass/responsive.scss */
+  .how-to {
+    width: 46%;
+    text-align: center;
+  }
+
+  /* line 23, ../sass/responsive.scss */
+  .how-to p {
+    width: auto;
+  }
+
+  /* line 24, ../sass/responsive.scss */
+  .how-to:nth-child(2) {
+    margin: 0;
+  }
+
+  /* line 25, ../sass/responsive.scss */
+  .how-to img {
+    float: none;
+    margin: 0;
+  }
+
+  /* line 26, ../sass/responsive.scss */
+  .block-10 p {
+    max-width: 440px;
+  }
+
+  /* line 27, ../sass/responsive.scss */
+  .check-block-wrap:after {
+    top: 30px;
+  }
+
+  /* line 28, ../sass/responsive.scss */
+  .code-example {
+    top: 100px;
+  }
+
+  /* line 29, ../sass/responsive.scss */
+  .adress-wrap {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 33, ../sass/responsive.scss */
+  .container {
+    width: 480px;
+  }
+
+  /* line 34, ../sass/responsive.scss */
+  header {
+    background: url("../img/head-back.png") no-repeat center top 100px, #171717;
+  }
+
+  /* line 35, ../sass/responsive.scss */
+  .natural {
+    display: none;
+  }
+
+  /* line 36, ../sass/responsive.scss */
+  .call-button {
+    margin-right: 0;
+  }
+
+  /* line 37, ../sass/responsive.scss */
+  h1 {
+    padding: 20px 0;
+  }
+
+  /* line 38, ../sass/responsive.scss */
+  .form-title {
+    display: none;
+  }
+
+  /* line 39, ../sass/responsive.scss */
+  .header-right, .form-wrap {
+    margin: 0 auto;
+    float: none;
+    overflow: hidden;
+    clear: both;
+  }
+
+  /* line 40, ../sass/responsive.scss */
+  .header-list ul {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* line 41, ../sass/responsive.scss */
+  .header-list:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto -50px;
+    top: -30px;
+    display: block;
+    position: relative;
+  }
+
+  /* line 42, ../sass/responsive.scss */
+  .form-wrap {
+    margin: 0 auto;
+    float: none;
+  }
+
+  /* line 43, ../sass/responsive.scss */
+  .block-2, .block-3, .block-4, .block-5, .block-6, .block-7, .block-8, .block-9, .block-10 {
+    padding: 30px 0;
+  }
+
+  /* line 44, ../sass/responsive.scss */
+  h2 {
+    padding-bottom: 25px;
+  }
+
+  /* line 45, ../sass/responsive.scss */
+  .age-3 {
+    margin: 0;
+  }
+
+  /* line 46, ../sass/responsive.scss */
+  .block-3 h2 {
+    margin-bottom: 0;
+  }
+
+  /* line 47, ../sass/responsive.scss */
+  .age {
+    width: 96%;
+    text-align: left;
+    padding: 25px 15px 15px 140px;
+    margin-top: 20px;
+  }
+
+  /* line 48, ../sass/responsive.scss */
+  .age-1:before, .age-2:before, .age-3:before {
+    left: 10px;
+    right: auto;
+    top: 20px;
+  }
+
+  /* line 49, ../sass/responsive.scss */
+  .block-4 {
+    background: url("../img/boobs.png") no-repeat center top 50px, #161515;
+    background-position-x: 40px;
+  }
+
+  /* line 50, ../sass/responsive.scss */
+  .block-4 .header-right {
+    margin-top: 0px;
+  }
+
+  /* line 51, ../sass/responsive.scss */
+  .consist-description {
+    padding-bottom: 15px;
+  }
+
+  /* line 52, ../sass/responsive.scss */
+  .consist-wrap {
+    margin-bottom: 15px;
+  }
+
+  /* line 53, ../sass/responsive.scss */
+  .another-list li {
+    padding: 8px 80px 15px 40px;
+  }
+
+  /* line 54, ../sass/responsive.scss */
+  .another-list li:before {
+    left: 7px;
+  }
+
+  /* line 55, ../sass/responsive.scss */
+  .another-list:after {
+    top: 100px;
+  }
+
+  /* line 56, ../sass/responsive.scss */
+  .good-list li {
+    padding: 5px 10px 18px 180px;
+  }
+
+  /* line 57, ../sass/responsive.scss */
+  .good-list:after {
+    top: 125px;
+  }
+
+  /* line 58, ../sass/responsive.scss */
+  .block-7 {
+    padding-bottom: 0;
+  }
+
+  /* line 59, ../sass/responsive.scss */
+  .text-wrap {
+    padding: 0 0 350px;
+    background: url("../img/doctor.png") no-repeat right 40px bottom -60px;
+    background-size: 100%;
+  }
+
+  /* line 60, ../sass/responsive.scss */
+  .text-wrap:after {
+    bottom: 310px;
+    left: 350px;
+  }
+
+  /* line 61, ../sass/responsive.scss */
+  .block-7 p {
+    max-width: 100%;
+    margin: 5px auto 15px;
+  }
+
+  /* line 62, ../sass/responsive.scss */
+  .reviews-1, .reviews-2, .reviews-3 {
+    width: 100%;
+    height: auto;
+    margin: 0 0 100px 0;
+  }
+
+  /* line 63, ../sass/responsive.scss */
+  .reviews-3 {
+    margin-bottom: 10px;
+  }
+
+  /* line 64, ../sass/responsive.scss */
+  .reviews p {
+    margin-bottom: 15px;
+  }
+
+  /* line 65, ../sass/responsive.scss */
+  .how-to {
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 48%;
+  }
+
+  /* line 66, ../sass/responsive.scss */
+  .check-block-wrap:after, .code-example {
+    display: none;
+  }
+
+  /* line 67, ../sass/responsive.scss */
+  .block-10 p {
+    width: 100%;
+  }
+
+  /* line 68, ../sass/responsive.scss */
+  footer {
+    background: url("../img/butt-back.png") no-repeat center top 110px, #171717;
+  }
+
+  /* line 69, ../sass/responsive.scss */
+  .company-block {
+    text-align: center;
+    padding: 25px 0;
+  }
+
+  /* line 70, ../sass/responsive.scss */
+  .numbers-wrap {
+    display: none;
+  }
+
+  /* line 71, ../sass/responsive.scss */
+  .company-logo-wrap {
+    display: block;
+    float: none;
+  }
+
+  /* line 72, ../sass/responsive.scss */
+  .company-logo-wrap {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* line 73, ../sass/responsive.scss */
+  .adress-wrap {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 77, ../sass/responsive.scss */
+  .container {
+    width: 320px;
+  }
+
+  /* line 78, ../sass/responsive.scss */
+  header, footer, .block-2, .block-3, .block-4, .block-5, .block-6, .block-7, .block-8, .block-9, .block-10 {
+    padding: 20px 0;
+  }
+
+  /* line 79, ../sass/responsive.scss */
+  h2 {
+    line-height: 36px;
+  }
+
+  /* line 80, ../sass/responsive.scss */
+  .logo-wrap {
+    float: none;
+    text-align: center;
+  }
+
+  /* line 81, ../sass/responsive.scss */
+  .call-button {
+    text-align: center;
+    float: none;
+    margin: 20px 0 0;
+  }
+
+  /* line 82, ../sass/responsive.scss */
+  .header-list:after {
+    width: 300px;
+    margin-bottom: -60px;
+  }
+
+  /* line 83, ../sass/responsive.scss */
+  .text-wrap {
+    padding: 0 0 250px;
+    background: url("../img/doctor.png") no-repeat right 40px bottom -30px;
+    background-size: 100%;
+  }
+
+  /* line 84, ../sass/responsive.scss */
+  .text-wrap:after {
+    bottom: 200px;
+    left: 190px;
+  }
+
+  /* line 85, ../sass/responsive.scss */
+  .round-wrap {
+    margin: 0 0 30px 0;
+  }
+
+  /* line 86, ../sass/responsive.scss */
+  .age {
+    padding: 50px 15px 15px 15px;
+    margin-bottom: 90px;
+  }
+
+  /* line 87, ../sass/responsive.scss */
+  .block-3 h2 {
+    margin-bottom: 50px;
+  }
+
+  /* line 88, ../sass/responsive.scss */
+  .age-3 {
+    margin-bottom: 20px;
+  }
+
+  /* line 89, ../sass/responsive.scss */
+  .age-1:before, .age-2:before, .age-3:before {
+    left: 0;
+    right: 0;
+    top: -80px;
+  }
+
+  /* line 90, ../sass/responsive.scss */
+  .consist-wrap {
+    width: 260px;
+  }
+
+  /* line 91, ../sass/responsive.scss */
+  .block-4 {
+    background: url("../img/boobs.png") no-repeat center bottom 300px, #161515;
+  }
+
+  /* line 92, ../sass/responsive.scss */
+  .product-2 {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+
+  /* line 93, ../sass/responsive.scss */
+  .block-4 ul {
+    padding-bottom: 250px;
+  }
+
+  /* line 94, ../sass/responsive.scss */
+  .another-list:after, .good-list:after {
+    display: none;
+  }
+
+  /* line 95, ../sass/responsive.scss */
+  .another-list li, .good-list li {
+    padding: 5px 0 18px 40px;
+  }
+
+  /* line 96, ../sass/responsive.scss */
+  .good-list li:before {
+    left: 10px;
+  }
+
+  /* line 97, ../sass/responsive.scss */
+  .how-to {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  /* line 98, ../sass/responsive.scss */
+  .how-to p {
+    padding-top: 10px;
+  }
+
+  /* line 99, ../sass/responsive.scss */
+  .block-10 input {
+    width: 300px;
+    box-sizing: border-box;
+  }
+
+  /* line 100, ../sass/responsive.scss */
+  .check-code-button {
+    width: 300px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: block;
+    padding: 8px 0;
+  }
+}
